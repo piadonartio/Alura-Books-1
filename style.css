@@ -1,7 +1,7 @@
 :root{
-    --cor-de-fundo: #EBECEE;
+    --cor-de-fundo:#EBECEE; 
     --branco: white;
-    --laranja:#EB9B00;
+    --laranja: #EB9B00;
     --azul-degrade: linear-gradient(97.54deg, #002F52, 35.49%, #326589, 165.37%);
     --fonte-principal: "Poppins";
 }
@@ -16,4 +16,4 @@ h1{
 }
 @import url("styles/header.css");
 @import url("styles/banner.css");
-@import url("styles/carrossel.css")
+@import url("styles/carrossel.css");
