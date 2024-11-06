@@ -100,5 +100,9 @@ justify-content: space-between;
   font-size: 16px;
 }
 .descricao{
-  
+  margin-right: 2em;
+}
+.card{
+  width: 60%;
+  margin-left: 3em;
 }
