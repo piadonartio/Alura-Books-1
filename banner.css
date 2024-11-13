@@ -2,7 +2,7 @@
     background: var(--azul-degrade);
     color: var(--branco);
     text-align: center;
-    padding: 6em 0;
+    padding: 2.5em 2em;
 }
 
 .banner-titulo {
@@ -12,7 +12,7 @@
 
 .banner-texto {
     font-weight: 500;
-    margin: 1em0;
+    margin: 1em 0;
 }
 
 .banner-pesquisa {
@@ -33,20 +33,35 @@
     background: url("./img/search_black_24dp\ 1.png") no-repeat;
     background-position: 1em;
 }
+
 @media screen and (min-width: 1024px) {
     .banner-titulo {
-    font-size: 36px;
-    
+        font-size: 36px;
     }
-    }
-    .banner-pesquisa{
+
+    .banner-pesquisa {
         width: 50%;
     }
-    .banner-pesquisa::placeholder{
+
+    .banner-pesquisa::placeholder {
+        background-position: 7em;
+    }
+}
+
+
+
+@media screen and (min-width: 1728px) {
+    .banner-pesquisa {
+        width: 35%;
+    }
+
+    .banner {
+        padding: 6em 0;
+    }
+
+    .banner-pesquisa::placeholder {
         background-position: 12em;
     }
-    @media screen and (min-width: 1728px) {
-        .banner-pesquisa{
-            width: 35%;
-        }}
-        
+
+
+}  
